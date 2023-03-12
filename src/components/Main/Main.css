@@ -1,0 +1,191 @@
+.main {
+  background-image: url(../../assets/oval.svg);
+  background-size: cover;
+  background-position-x: center;
+  background-color: #EEBECE;
+  height: 768px;
+}
+
+/* header */
+
+.bitmap {
+  height: 33px;
+  width: 33px;
+  margin-right: 0.3%;
+}
+
+.nv {
+  background-color: #ffffff;
+  justify-content: start;
+}
+
+.good-morning {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: -3%;
+}
+
+.fellas {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* banner */
+
+.banner-title {
+  font-weight: 900;
+  line-height: 51px;
+  color: #FFFFFF;
+}
+
+.banner-text {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.banner-img {
+  margin-top: 12vh;
+}
+
+.bannerimg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #ffffff;
+  border-radius: 29px;
+  box-shadow: 0px 20px 30px #f883aa90;
+  height: 60px;
+  width: 233px;
+}
+
+@media (min-width: 300px) {
+  .banner-title {
+    margin-top: 8vh;
+    font-size: 52px;
+  }
+
+  .banner-img {
+    margin-top: 2vh;
+  }
+
+  .btn {
+    margin-top: -50%;
+  }
+
+  .container,
+  .container-xxl {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 400px) {
+  .banner-title {
+    margin-top: 8vh;
+  }
+
+  .btn {
+    margin-top: -45%;
+  }
+
+  .container,
+  .container-xxl {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .bitmap {
+    margin-left: 15%;
+    margin-top: -0.5%;
+  }
+
+  .banner-title {
+    margin-top: 5vh;
+    font-size: 58px;
+  }
+
+  .banner-img {
+    margin-top: 7vh;
+  }
+
+  .btn {
+    margin-top: -22%;
+  }
+
+  .container,
+  .container-xxl {
+    max-width: 100% !important;
+  }
+
+  .helpimg {
+    left: 88%;
+    top: 203%;
+  }
+}
+
+@media (min-width: 992px) {
+  .bitmap {
+    margin-left: 15%;
+    margin-top: -0.5%;
+  }
+
+  .banner-title {
+    margin-top: 10vh;
+    font-size: 62px;
+  }
+
+  .banner-img {
+    margin-top: 9vh;
+  }
+
+  .btn {
+    margin-top: -14%;
+  }
+
+  .container,
+  .container-xxl {
+    max-width: 100% !important;
+  }
+
+  .helpimg {
+    left: 87%;
+    top: 265%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .main {
+    height: 850px;
+  }
+
+  .bitmap {
+    margin-left: 15%;
+    margin-top: -0.5%;
+  }
+
+  .banner-title {
+    margin-top: 14.5vh;
+  }
+
+
+  .btn {
+    margin-top: -12%;
+  }
+
+  .container,
+  .container-xxl {
+    max-width: 100% !important;
+  }
+
+  .helpimg {
+    left: 82%;
+    top: 313%;
+  }
+}

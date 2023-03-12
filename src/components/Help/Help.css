@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+.Help {
+    background: #000000;
+}
+
+.help-text {
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 619px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 20vh;
+}
+
+.Resource {
+    padding-top: 10vh;
+}
+
+p {
+    font-size: 18px;
+}
+
+.helpimg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
+
+.helpimg1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-helptips {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card-help {
+    width: 100%;
+    max-width: 311px;
+    height: 176px;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+}
+
+.body-help {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: left;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.card-titlee {
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: -0.57px;
+    font-weight: 500;
+    width: 218px;
+}
+
+.help-button {
+    background-color: #fff;
+    border: none;
+    border-radius: 50% !important;
+    color: #0B24FB;
+    cursor: pointer;
+    height: 32px !important;
+    width: 32px !important;
+    overflow: hidden;
+}
+
+
+footer {
+    background: #0B24FB;
+    height: 67px;
+    align-items: center;
+}
+
+.copyright {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+}
+
+.num {
+    font-weight: 400;
+}
+
+.version {
+    font-size: 14px;
+    line-height: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .card-help {
+        max-width: 311px;
+        height: 176px;
+    }
+}
