@@ -126,11 +126,40 @@
 
   .helpimg {
     left: 88%;
-    top: 203%;
+    top: 215%;
+  }
+}
+@media (min-width: 900px) {
+  .bitmap {
+    margin-left: 15%;
+    margin-top: -0.5%;
+  }
+
+  .banner-title {
+    margin-top: 5vh;
+    font-size: 58px;
+  }
+
+  .banner-img {
+    margin-top: 7vh;
+  }
+
+  .btn {
+    margin-top: -22%;
+  }
+
+  .container,
+  .container-xxl {
+    max-width: 100% !important;
+  }
+
+  .helpimg {
+    left: 90%;
+    top: 170%;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .bitmap {
     margin-left: 15%;
     margin-top: -0.5%;
@@ -185,7 +214,7 @@
   }
 
   .helpimg {
-    left: 82%;
-    top: 313%;
+    left: 83%;
+    top: 248%;
   }
 }
